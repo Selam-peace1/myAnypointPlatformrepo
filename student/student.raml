@@ -1,0 +1,102 @@
+#%RAML 1.0
+title: student
+traits:
+  errors: !include traits/trait.raml
+/student:
+  is:
+    - errors
+  get:
+    description: Get a list of student data.
+    queryParameters:
+      name:
+        description: the name of student.
+        type: string
+        example: "Selam"
+      studentId:
+        description: Id number of a student.
+        type: number
+        example: 123
+      email:
+        description: Student email address.  
+        type: string
+        example: "example@gmail.com"
+      course:
+        description: Course name.
+        type: string
+        example: "Computer Science"
+    responses:
+          200:
+            description: successful
+            body:
+              application/json:
+                type: object
+                example: !include Examples/getResponse.json
+                 
+  post:
+    description: Saving student data.
+    body:
+      application/json:
+        type: !include datatypes/dataType.raml
+        example: !include Examples/example1.json    
+    responses:
+          201:
+            description: successful
+            body:
+              application/json:
+                type: string
+                example: "Successful"
+          
+  put:
+    description: Updates an existing student record.
+    body:
+      application/json:
+        type: object
+        properties:
+          name:
+            type: string
+            description: The name of the student.
+            required: true
+          studentId:
+            type: number
+            description: Student ID number.
+            required: true
+          email:
+            type: string
+            description: Student email address.
+            required: true
+          course:
+            type: string
+            description: Course name.
+            required: true
+        example:
+          name: "Sara"
+          studentId: 345
+          email: "sara@gmail.com"
+          course: "Introduction to AI" 
+    responses:
+        200:
+          body:
+            application/json:
+              type: string
+              example: "Resource updated successfully"                                    
+           
+  delete:
+    description: deleting record.
+    responses:
+      204:
+        body:
+          application/json:
+            type: string
+            example: "Deleted"
+            
+              
+        
+                  
+                   
+        
+                       
+
+              
+          
+          
+          

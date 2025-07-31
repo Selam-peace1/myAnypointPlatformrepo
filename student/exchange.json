@@ -1,0 +1,10 @@
+{
+  "main": "student.raml",
+  "name": "student",
+  "groupId": "1198ba5d-0d49-4948-8298-87857ff806a5",
+  "assetId": "student",
+  "version": "1.0.0",
+  "classifier": "raml",
+  "tags": [],
+  "descriptorVersion": "1.0.0"
+}
