@@ -1,0 +1,37 @@
+{
+  "orderId": "FL_TA_Res_20250515_67350",
+  "customerId": "selam_FL_TA_Res_9871",
+  "item": [
+    {
+      "itemName": "Milk",
+      "quantity": 2,
+      "itemId": 457984100,
+      "price": 1
+    },
+    {
+      "itemName": "candy",
+      "quantity": 1,
+      "itemId": 457945100,
+      "price": 10
+    },
+    {
+      "itemName": "cheese",
+      "quantity": 2,
+      "itemId": 342984100,
+      "price": 2.65
+    },
+    {
+      "itemName": "eggs",
+      "quantity": 12,
+      "itemId": 907984100,
+      "price": 0.97
+    },
+    {
+      "itemName": "banana",
+      "quantity": 5,
+      "itemId": 677984100,
+      "price": 1.97
+    }
+  ],
+  "status": "Awaiting Payment"
+}

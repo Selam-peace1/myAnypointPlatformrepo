@@ -1,0 +1,24 @@
+{
+  "main": "proxywalmartfinal.raml",
+  "name": "proxywalmartfinal",
+  "groupId": "1198ba5d-0d49-4948-8298-87857ff806a5",
+  "assetId": "proxywalmartfinal",
+  "version": "1.0.0",
+  "classifier": "raml",
+  "tags": [],
+  "dependencies": [
+    {
+      "version": "1.0.0",
+      "assetId": "errorresponse",
+      "groupId": "1198ba5d-0d49-4948-8298-87857ff806a5",
+      "provided": false
+    },
+    {
+      "version": "1.0.1",
+      "assetId": "walmart-library",
+      "groupId": "1198ba5d-0d49-4948-8298-87857ff806a5",
+      "provided": false
+    }
+  ],
+  "descriptorVersion": "1.0.0"
+}
