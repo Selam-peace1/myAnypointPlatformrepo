@@ -1,0 +1,14 @@
+#%RAML 1.0 Library
+
+traits:
+  errorResponse: !include ../traits/ErrorTrait.raml
+
+resourceTypes:
+  collection: !include ../resourceTypes/CollectionType.raml
+  item: !include ../resourceTypes/ItemType.raml
+
+types:
+  GroceryItem: !include ../dataTypes/GroceryItem.raml
+  Order: !include ../dataTypes/Order.raml
+  Inventory: !include ../dataTypes/Inventory.raml
+  ErrorResponse: !include ../dataTypes/ErrorResponse.raml

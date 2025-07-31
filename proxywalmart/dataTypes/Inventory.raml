@@ -1,0 +1,16 @@
+#%RAML 1.0 DataType
+type: array
+items:
+  type: object
+  properties:
+    itemId: 
+      type: string
+      example: W0001
+    stock: 
+      type: integer
+      minimum: 0
+      example: 150
+    lastUpdated: 
+      type: datetime
+      format: rfc3339
+      example: 2025-06-13T10:00:00Z

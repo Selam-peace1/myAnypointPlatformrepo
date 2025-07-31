@@ -1,0 +1,15 @@
+{
+  "orderId": "ORD2001",
+  "customerId": "CUST789",
+  "items": [
+    {
+      "itemId": "W0005",
+      "quantity": 2
+    },
+    {
+      "itemId": "W0006",
+      "quantity": 4
+    }
+  ],
+  "status": "Processing"
+}

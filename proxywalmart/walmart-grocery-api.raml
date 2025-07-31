@@ -1,0 +1,54 @@
+#%RAML 1.0
+title: Walmart Grocery API
+uses:
+  lib: libraries/commonLibrary.raml
+  
+traits:
+  errorResponse: !include traits/ErrorTrait.raml
+
+resourceTypes:
+  collection: !include resourceTypes/CollectionType.raml
+  item: !include resourceTypes/ItemType.raml
+
+# types:
+#   GroceryItem: !include dataTypes/GroceryItem.raml
+#   Order: !include dataTypes/Order.raml
+#   Inventory: !include dataTypes/Inventory.raml
+#   ErrorResponse: !include dataTypes/ErrorResponse.raml
+
+
+/products:
+  type: collection
+  get:
+    is: [errorResponse]
+    responses:
+      200:
+        body:
+          application/json:
+            type: !include dataTypes/GroceryItem.raml
+            example: !include examples/GroceryItems.json
+
+/orders:
+  type: collection
+  post:
+    is: [errorResponse]
+    body:
+      application/json:
+        type: !include dataTypes/Order.raml
+        example: !include examples/OrderRequest.json
+    responses:
+      201:
+        body:
+          application/json:
+            example: !include examples/OrderResponse.json
+
+/inventory:
+  type: collection
+  get:
+    is: [errorResponse]
+    responses:
+      200:
+        body:
+          application/json:
+            type: !include dataTypes/Inventory.raml
+            example: !include examples/InventoryData.json

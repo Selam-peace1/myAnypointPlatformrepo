@@ -1,0 +1,72 @@
+[
+  {
+    "id": "W0001",
+    "name": "Basmati Rice",
+    "category": "Grains",
+    "price": 85.00,
+    "availability": true
+  },
+  {
+    "id": "W0002",
+    "name": "Toor Dal",
+    "category": "Pulses",
+    "price": 110.00,
+    "availability": true
+  },
+  {
+    "id": "W0003",
+    "name": "Sunflower Oil",
+    "category": "Oils",
+    "price": 135.00,
+    "availability": false
+  },
+  {
+    "id": "W0004",
+    "name": "Tata Salt",
+    "category": "Spices & Condiments",
+    "price": 20.00,
+    "availability": true
+  },
+  {
+    "id": "W0005",
+    "name": "Aashirvaad Atta",
+    "category": "Flours",
+    "price": 250.00,
+    "availability": true
+  },
+  {
+    "id": "W0006",
+    "name": "Maggi Noodles",
+    "category": "Instant Foods",
+    "price": 14.00,
+    "availability": true
+  },
+  {
+    "id": "W0007",
+    "name": "Amul Butter",
+    "category": "Dairy",
+    "price": 55.00,
+    "availability": false
+  },
+  {
+    "id": "W0008",
+    "name": "Parle-G Biscuits",
+    "category": "Snacks",
+    "price": 10.00,
+    "availability": true
+  },
+  {
+    "id": "W0009",
+    "name": "Surf Excel Detergent",
+    "category": "Household",
+    "price": 195.00,
+    "availability": true
+  },
+  {
+    "id": "W0010",
+    "name": "Haldiram's Bhujia",
+    "category": "Snacks",
+    "price": 45.00,
+    "availability": true
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "main": "walmart-grocery-api.raml",
+  "name": "Walmartp",
+  "groupId": "188d146e-6a5d-4fcb-a504-c3e30ac08dcf",
+  "assetId": "proxywalmart",
+  "version": "1.0.1",
+  "classifier": "raml",
+  "tags": [],
+  "descriptorVersion": "1.0.0",
+  "organizationId": "188d146e-6a5d-4fcb-a504-c3e30ac08dcf",
+  "apiVersion": "v1",
+  "originalFormatVersion": "1.0"
+}

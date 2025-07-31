@@ -1,0 +1,23 @@
+#%RAML 1.0 Trait
+responses:
+  400:
+    body:
+      application/json:
+        type:  !include ../dataTypes/ErrorResponse.raml
+        example:
+          errorCode: "400"
+          message: "Bad Request"
+  404:
+    body:
+      application/json:
+        type:  !include ../dataTypes/ErrorResponse.raml
+        example:
+          errorCode: "404"
+          message: "Not Found"
+  500:
+    body:
+      application/json:
+        type:  !include ../dataTypes/ErrorResponse.raml
+        example:
+          errorCode: "500"
+          message: "Internal Server Error"
