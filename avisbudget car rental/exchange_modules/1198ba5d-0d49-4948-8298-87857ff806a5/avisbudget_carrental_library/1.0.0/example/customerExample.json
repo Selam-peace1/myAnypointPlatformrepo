@@ -1,0 +1,15 @@
+{
+  "custId": "617-23",
+  "name": "Doe John",
+  "address": [
+    {
+      "street": "Bayshore Boulevard",
+      "zipCode": 33456,
+      "city": "Tampa",
+      "state": "FL"
+    }
+  ],
+  "email": "example@gmail.com",
+  "phoneNumber": 8135469976,
+  "licenseNumber": "S123-456-67-899-0"
+}

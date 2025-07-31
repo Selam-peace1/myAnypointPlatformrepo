@@ -1,0 +1,32 @@
+#%RAML 1.0 ResourceType
+uses:
+  myLib: exchange_modules/1198ba5d-0d49-4948-8298-87857ff806a5/avisbudget_carrental_library/1.0.0/avisbudget_carrental_library.raml
+get:
+    description: Retrieve customer data
+    queryParameters:
+      custId: 
+       type: string
+       example: "617-01"
+      name:
+        type: string
+        example: "Sam Cooke"
+      address:
+        type: array
+        example:
+          ["Palm Avenu", 78906, "Tampa", "FL"]
+      email:
+        type: string
+        example: "example@yahoo.com"
+      phoneNumber:
+        type: integer
+        example: 9218764423
+      licenseNumber:
+        type: string
+        example: "S123-456-67-899-0"
+    responses:
+            200:
+              body:
+                application/json:
+                  type: myLib.customerDataType
+                  #example: myLib.customerExample
+                  example: !include ../Examples/customer.json

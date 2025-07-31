@@ -1,0 +1,30 @@
+#%RAML 1.0
+title:  avisbudget car rental
+uses:
+  myLib: exchange_modules/1198ba5d-0d49-4948-8298-87857ff806a5/avisbudget_carrental_library/1.0.0/avisbudget_carrental_library.raml
+traits: 
+ errorResponses: !include exchange_modules/1198ba5d-0d49-4948-8298-87857ff806a5/errorresponse/1.0.0/errorresponse.raml
+resourceTypes:
+        car: !include resourceType/carResourceType.raml
+        customer: !include resourceType/customerResourceType.raml 
+        rental: !include resourceType/rentalResourceType.raml     
+/car:
+  is:
+    - errorResponses
+  type:
+      car  
+/customer:
+  is:
+    - errorResponses
+  type:
+      customer  
+/rental:
+  is:
+    - errorResponses
+  type:
+      rental                     
+            
+                
+  
+                  
+                          

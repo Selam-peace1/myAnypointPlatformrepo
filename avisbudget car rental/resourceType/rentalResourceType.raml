@@ -1,0 +1,17 @@
+#%RAML 1.0 ResourceType
+uses:
+  myLib: exchange_modules/1198ba5d-0d49-4948-8298-87857ff806a5/avisbudget_carrental_library/1.0.0/avisbudget_carrental_library.raml
+post:
+      description: Creating rental data
+      body:
+        application/json:
+          type: myLib.rentalDataType
+          #example: myLib.rentalExample
+          example: !include ../Examples/rentalExample.json
+      responses:
+              201:
+                description: Successful!
+                body:
+                  application/json:
+                    type: string
+                    example: "Successful!"  

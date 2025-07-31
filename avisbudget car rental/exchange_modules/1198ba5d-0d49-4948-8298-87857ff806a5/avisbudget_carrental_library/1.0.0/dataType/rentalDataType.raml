@@ -1,0 +1,24 @@
+#%RAML 1.0 DataType
+type: object
+properties:
+  id: string
+  custId: string
+  carId: string
+  rentalType: string
+  rentalDate: datetime
+  startDate: datetime
+  endDate: datetime
+  Status: string
+  Price: number
+  insuranceFee: number
+  totalPrice: number
+  cardInformation: 
+    type: array
+    items:
+      type: object
+      properties:
+        cardType: string
+        name: string
+        carNumber: string
+        expireDate: date-only
+        securityNumber: integer

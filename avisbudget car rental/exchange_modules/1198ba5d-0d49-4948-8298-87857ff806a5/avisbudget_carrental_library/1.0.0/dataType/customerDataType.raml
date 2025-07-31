@@ -1,0 +1,17 @@
+#%RAML 1.0 DataType
+type: object
+properties:
+  custId: string
+  name: string
+  address: 
+   type: array
+   items:
+    type: object
+    properties:
+      street: string
+      zipCode: integer
+      city: string
+      state: string
+  email: string
+  phoneNumber: integer
+  licenseNumber: string

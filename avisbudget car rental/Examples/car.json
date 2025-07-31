@@ -1,0 +1,9 @@
+{
+  "carType": "truck",
+  "carId": "volvo_trk_3210",
+  "make": "geely holdings",
+  "model": "VNL860",
+  "year": 2018,
+  "color": "white",
+  "available": true
+}

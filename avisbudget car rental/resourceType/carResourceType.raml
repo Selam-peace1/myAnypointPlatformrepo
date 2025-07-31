@@ -1,0 +1,36 @@
+#%RAML 1.0 ResourceType
+uses:
+  myLib: exchange_modules/1198ba5d-0d49-4948-8298-87857ff806a5/avisbudget_carrental_library/1.0.0/avisbudget_carrental_library.raml
+get:
+    description: Retrieve car information
+    queryParameters:
+       carType:
+         type: string
+         example: "car"
+       carId:
+         type: string
+         example: "BMW_SUV_67432"
+       make:
+         type: string
+         example: "BMW"
+       model:
+         type: string
+         example: "X3"          
+       year:
+         type: integer
+         example: 2020
+       color:
+         type: string
+         example: "A72"
+       available:
+         type: boolean
+         example: true
+    responses:
+      200:
+        description: successful!
+        body:
+          application/json:
+            type: myLib.carDataType
+            #example: myLib.carExample
+            example: !include ../Examples/car.json
+              

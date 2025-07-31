@@ -1,0 +1,22 @@
+{
+  "id": "T_0625_098",
+  "custId": "617-23",
+  "carId": "volvo_trk_3210",
+  "rentalType": "onDemandCarsharing",
+  "rentalDate": "2025-06-17T14:30:00Z",
+  "startDate": "2025-10-08T14:30:00Z",
+  "endDate": "2025-10-15T14:30:00Z",
+  "Status": "rented",
+  "Price": 598.06,
+  "insuranceFee": 225.09,
+  "totalPrice": 823.15,
+  "cardInformation": [
+    {
+      "cardType": "Credit Card",
+      "name": "Sam Cooke",
+      "carNumber": "1234 1234 1234 1234",
+      "expireDate": "2028-06-10",
+      "securityNumber": 1234
+    }
+  ]
+}
