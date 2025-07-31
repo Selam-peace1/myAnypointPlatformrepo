@@ -1,0 +1,10 @@
+#%RAML 1.0
+title: Custom
+traits:
+  error: !include exchange_modules/1198ba5d-0d49-4948-8298-87857ff806a5/errorresponse/1.0.0/errorresponse.raml
+resourceTypes:
+  getCustomerData: !include resourceType/getCustomerData.raml
+/Customer:
+  type: getCustomerData
+  is:
+    - error
