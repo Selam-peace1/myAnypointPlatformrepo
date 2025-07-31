@@ -1,0 +1,9 @@
+#%RAML 1.0 ResourceType
+# get:
+#   is: [errorResponse]
+#   responses:
+#     200:
+#       body:
+#         application/json:
+#           type: !include ../dataTypes/GroceryItem.raml
+#           example: !include ../examples/GroceryItems.json

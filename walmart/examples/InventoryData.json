@@ -1,0 +1,52 @@
+[
+  {
+    "itemId": "W0001",
+    "stock": 150,
+    "lastUpdated": "2025-06-13T10:00:00Z"
+  },
+  {
+    "itemId": "W0002",
+    "stock": 80,
+    "lastUpdated": "2025-06-13T10:00:00Z"
+  },
+  {
+    "itemId": "W0003",
+    "stock": 0,
+    "lastUpdated": "2025-06-13T10:00:00Z"
+  },
+  {
+    "itemId": "W0004",
+    "stock": 200,
+    "lastUpdated": "2025-06-13T10:00:00Z"
+  },
+  {
+    "itemId": "W0005",
+    "stock": 95,
+    "lastUpdated": "2025-06-13T10:00:00Z"
+  },
+  {
+    "itemId": "W0006",
+    "stock": 300,
+    "lastUpdated": "2025-06-13T10:00:00Z"
+  },
+  {
+    "itemId": "W0007",
+    "stock": 0,
+    "lastUpdated": "2025-06-13T10:00:00Z"
+  },
+  {
+    "itemId": "W0008",
+    "stock": 180,
+    "lastUpdated": "2025-06-13T10:00:00Z"
+  },
+  {
+    "itemId": "W0009",
+    "stock": 75,
+    "lastUpdated": "2025-06-13T10:00:00Z"
+  },
+  {
+    "itemId": "W0010",
+    "stock": 130,
+    "lastUpdated": "2025-06-13T10:00:00Z"
+  }
+]
