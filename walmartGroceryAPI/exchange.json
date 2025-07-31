@@ -1,0 +1,27 @@
+{
+  "dependencies": [
+    {
+      "version": "1.0.0",
+      "assetId": "errorresponse",
+      "groupId": "1198ba5d-0d49-4948-8298-87857ff806a5",
+      "provided": false
+    },
+    {
+      "version": "1.0.1",
+      "assetId": "walmart-library",
+      "groupId": "1198ba5d-0d49-4948-8298-87857ff806a5",
+      "provided": false
+    }
+  ],
+  "version": "1.0.0",
+  "descriptorVersion": "1.0.0",
+  "classifier": "raml",
+  "main": "walmart-grocery-api.raml",
+  "assetId": "walmart-grocery-api",
+  "groupId": "1198ba5d-0d49-4948-8298-87857ff806a5",
+  "name": "Walmart Grocery API",
+  "organizationId": "1198ba5d-0d49-4948-8298-87857ff806a5",
+  "apiVersion": "v1",
+  "tags": [],
+  "originalFormatVersion": "1.0"
+}

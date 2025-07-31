@@ -1,0 +1,16 @@
+#%RAML 1.0 ResourceType
+uses:
+  mylib: /exchange_modules/1198ba5d-0d49-4948-8298-87857ff806a5/walmart-library/1.0.1/walmart-library.raml  
+post:
+    description: Accepts new customer orders
+    body:
+      application/json:
+        type: mylib.order
+        example: !include ../example/postExample.json
+    responses:
+      201:
+        description: Successful
+        body:
+          application/json:
+            type: string
+            example: "successful"    
